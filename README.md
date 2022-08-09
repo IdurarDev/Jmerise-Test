@@ -2,7 +2,7 @@
 
 ## Merise ( qui se prononce _meurise_ non pas _mérise_ ) est une methode d'analyse, de conception de gestion de projet informatiques.
 
-## Quel est la définition cet acronyme :
+## Quel est la définition de l'acronyme MERISE:
 
 - <span style="color:#1582B8">_M_</span>éthode
 - <span style="color:#1582B8">_É_</span>tude
