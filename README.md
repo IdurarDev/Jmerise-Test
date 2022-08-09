@@ -44,3 +44,60 @@ le **_MPD_** (modèle physique de donnée):
 </figure>
 
 et bien d'autres schèmas.
+
+---
+
+Voici le script qui nous a été générer de notre MLD:
+
+```
+CREATE TABLE Formations(
+   unique_number VARCHAR(50),
+   name_formation VARCHAR(50) NOT NULL,
+   PRIMARY KEY(unique_number)
+);
+
+CREATE TABLE Apprenant(
+   unique_number VARCHAR(50),
+   name VARCHAR(50),
+   prenom VARCHAR(50),
+   address VARCHAR(50) NOT NULL,
+   date_of_birth DATE,
+   unique_number_1 VARCHAR(50) NOT NULL,
+   PRIMARY KEY(unique_number),
+   FOREIGN KEY(unique_number_1) REFERENCES Formations(unique_number)
+);
+
+CREATE TABLE Formateur(
+   unique_number VARCHAR(50),
+   name VARCHAR(50),
+   prenom VARCHAR(50),
+   PRIMARY KEY(unique_number)
+);
+
+CREATE TABLE Validation_module(
+   unique_number VARCHAR(50),
+   validate_module LOGICAL,
+   PRIMARY KEY(unique_number)
+);
+
+CREATE TABLE Finished_formation(
+   unique_number VARCHAR(50),
+   finished LOGICAL,
+   PRIMARY KEY(unique_number)
+);
+
+CREATE TABLE Cours_module(
+   unique_number VARCHAR(50),
+   author VARCHAR(50),
+   name VARCHAR(50),
+   Content VARCHAR(50),
+   objectif VARCHAR(50),
+   during VARCHAR(50),
+   tag VARCHAR(50),
+   unique_number_1 VARCHAR(50) NOT NULL,
+   unique_number_2 VARCHAR(50) NOT NULL,
+   PRIMARY KEY(unique_number, author),
+   FOREIGN KEY(unique_number_1) REFERENCES Formations(unique_number),
+   FOREIGN KEY(unique_number_2) REFERENCES Formateur(unique_number)
+);
+```
