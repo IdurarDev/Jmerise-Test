@@ -47,7 +47,7 @@ et bien d'autres schèmas.
 
 ---
 
-Voici le script que nous a été générer de notre MLD:
+Voici le script que nous a générer notre MLD:
 
 ```
 CREATE TABLE Formations(
