@@ -4,28 +4,28 @@
 
 ## Quel est la définition cet acronyme :
 
-- <span style="color:#1582B8">M</span>éthode
-- <span style="color:#1582B8">É</span>tude
-- <span style="color:#1582B8">R</span>éalisation
-- <span style="color:#1582B8">I</span>nformatique
-- <span style="color:#1582B8">S</span>ystème
-- <span style="color:#1582B8">E</span>ntreprise
+- <span style="color:#1582B8">_M_</span>éthode
+- <span style="color:#1582B8">_É_</span>tude
+- <span style="color:#1582B8">_R_</span>éalisation
+- <span style="color:#1582B8">_I_</span>nformatique
+- <span style="color:#1582B8">_S_</span>ystème
+- <span style="color:#1582B8">_E_</span>ntreprise
 
 ### Merise repose sur plusieurs modèle ou schéma parmi eux nous avons:
 
-le **MCD** (modèle de conception de donnée):
+le **_MCD_** (modèle de conception de donnée):
 
 <figure>
   <img src="MCD.png" alt="" width="500" />
 </figure>
 
-le **MLD** (modèle logique de donnée):
+le **_MLD_** (modèle logique de donnée):
 
 <figure>
   <img src="MLD.png" alt="" width="500" />
 </figure>
 
-le **MPD** (modèle physique de donnée):
+le **_MPD_** (modèle physique de donnée):
 
 <figure>
   <img src="MPD.png" alt="" width="500" />
