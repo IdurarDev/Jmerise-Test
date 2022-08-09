@@ -11,6 +11,18 @@
 - <span style="color:#1582B8">_S_</span>ystème
 - <span style="color:#1582B8">_E_</span>ntreprise
 
+---
+
+## Le dictionnaire des donnèes qu'est ce que c'est ?
+
+### C'est une étape intermédiaire qui peut avoir son importance surtout si on travaille en groupe sur la même base de données. C'est un document qui regroupe toutes les données que on aura à conserver dans notre base de données ( qui figuereront donc dans le _MCD_).
+
+#### Un exemple de dictionnaire des données:
+
+<figure>
+  <img src="Dico.png" alt="" width="500" />
+</figure>
+
 ### Merise repose sur plusieurs modèle ou schéma parmi eux nous avons:
 
 le **_MCD_** (modèle de conception de donnée):
