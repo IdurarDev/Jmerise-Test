@@ -12,6 +12,16 @@
 - <span style="color:#1582B8">_E_</span>ntreprise
 
 ---
+## Règles de Gestion : 
+
+- Un formateur a un numéro unique qui permet de l'identifié
+- Un formateur peut ajouter une formation
+- Un formateur peut ajouter un module ou pas et peut le relier à une formation
+- Un apprenant a un numèro unique qui permet de l'identifié
+- Un apprenant peut s'inscrire à une ou plusieurs formations
+- Un apprenant peut valider un ou plusieurs modules
+- Un module a son numéro unique qui permet de l'identifié
+- Un module peut être relier à une ou plusieurs formations
 
 ## Le dictionnaire des donnèes qu'est ce que c'est ?
 
